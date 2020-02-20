@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-// Sebastian Lopez, Megan Gordon , Jane Ross 
+// Sebastian Lopez, Megan Gordon , Jane Ross  ELC 2137, 2020-02-19
 
 
 module halfadder_test ();
@@ -22,4 +22,5 @@ halfadder ha0(
         #10
         $finish;
        end
+       
 endmodule //halfadder_test  

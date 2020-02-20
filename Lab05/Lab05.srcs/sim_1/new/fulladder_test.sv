@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-// Sebastian Lopez, Megan Gordon , Jane Ross 
+// Sebastian Lopez, Megan Gordon , Jane Ross ELC 2137, 2020-02-19
 
 module fulladder_test();
 reg a1_in, b1_in, cin, c1 ;
