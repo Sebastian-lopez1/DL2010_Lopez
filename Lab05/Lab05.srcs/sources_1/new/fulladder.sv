@@ -22,4 +22,4 @@ module fulladder(
     
 assign cout = c1 ^ c2;
 
-endmodule
+endmodule//fulladder

@@ -1,13 +1,12 @@
 Vivado Simulator 2018.3
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/XilinxVivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 0e38fe95f8a542a18fa950dbf8294f01 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot fulladder_test_behav xil_defaultlib.fulladder_test xil_defaultlib.glbl -log elaborate.log 
+Running: C:/XilinxVivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 8b4d1040c1814b538b10050cb3c23144 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot addsub_test_behav xil_defaultlib.addsub_test xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.halfadder
-Compiling module xil_defaultlib.fulladder_test
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot fulladder_test_behav
+ERROR: [VRFC 10-3180] cannot find port 'c1' on this module [C:/Users/ROSSJ/Desktop/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv:13]
+ERROR: [VRFC 10-3180] cannot find port 'b1' on this module [C:/Users/ROSSJ/Desktop/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv:12]
+ERROR: [VRFC 10-3180] cannot find port 'c2' on this module [C:/Users/ROSSJ/Desktop/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv:16]
+ERROR: [VRFC 10-3180] cannot find port 'b2' on this module [C:/Users/ROSSJ/Desktop/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv:15]
+ERROR: [VRFC 10-3180] cannot find port 'c3' on this module [C:/Users/ROSSJ/Desktop/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv:19]
+ERROR: [VRFC 10-3180] cannot find port 'cout1' on this module [C:/Users/ROSSJ/Desktop/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv:18]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
