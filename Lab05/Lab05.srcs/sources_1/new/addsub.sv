@@ -2,26 +2,25 @@
 // Jane Ross, Megan Gordon and Sebastian Lopez  ELC 2137, 2020-02-19
 
 module addsub(
-    input [1:0] a1, b1, a2, b2, mode,
-    output s2,cout2, s4
+    input [1:0] a, b,
+    input mode,
+    output [1:0] s2, 
+    output cout2
     );
   
- wire x1,x2, c2, c3, s3, c4, x3;
+ wire x1,x2, c2;
   
-  xor(x1,b1,mode); 
-  xor(x2,b2,mode); 
-  xor(x3,c4,c3);
-  xor(cout2,x3,mode); 
+  xor(x1,b[0],mode); 
+  xor(x2,b[1],mode); 
   
   fulladder fa1( 
-    .a1(a1), .x1(x1),
-    .s2(s2), .c2(c2));
+    .a1_in(a[0]), .b1_in(x1), .cin(mode),
+    .s2(s2[0]), .cout(c2));
+    
+  fulladder fa2( 
+   .a1_in(a[1]), .b1_in(x2), .cin(c2),
+   .s2(s2[1]), .cout(cout2));
        
-  halfadder ha1(
-    .a2(a2), .x2(x2), 
-    .s3(s3), .c3(c3)); 
-  halfadder ha2(
-    .s3(s3), .c2(c2), 
-    .s4(s4), .c4(c4));
+       
 
 endmodule//addsub

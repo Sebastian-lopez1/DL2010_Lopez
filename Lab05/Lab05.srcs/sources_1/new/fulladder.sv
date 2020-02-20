@@ -3,7 +3,7 @@
 
 module fulladder(
     input a1_in, b1_in, cin,
-    output s2,cout, c2
+    output s2,cout
 );
 
  wire s1, c1, c2;

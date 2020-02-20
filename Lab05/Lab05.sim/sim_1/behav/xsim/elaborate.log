@@ -3,9 +3,13 @@ Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
 Running: C:/XilinxVivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 8b4d1040c1814b538b10050cb3c23144 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot addsub_test_behav xil_defaultlib.addsub_test xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-ERROR: [VRFC 10-3180] cannot find port 'x1' on this module [C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv:10]
-ERROR: [VRFC 10-3180] cannot find port 'c3' on this module [C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv:15]
-ERROR: [VRFC 10-3180] cannot find port 'x2' on this module [C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv:14]
-ERROR: [VRFC 10-3180] cannot find port 'c4' on this module [C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv:18]
-ERROR: [VRFC 10-3180] cannot find port 'c2' on this module [C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv:17]
-ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.halfadder
+Compiling module xil_defaultlib.fulladder
+Compiling module xil_defaultlib.addsub
+Compiling module xil_defaultlib.addsub_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot addsub_test_behav
