@@ -2,10 +2,10 @@
 // Sebastian Lopez, Megan Gordon , Jane Ross ELC 2137, 2020-02-19
 
 module fulladder_test();
-reg a1_in, b1_in, cin, c1 ;
-wire c2, cout, s2;
-
-halfadder ha1(
+reg a1_in, b1_in, cin;
+wire s1, c1, c2, s2, cout;
+ 
+ halfadder ha1(
     .a1(a1_in), .b1(b1_in), 
     .c1(c1), .s1(s1)); 
   halfadder ha2(

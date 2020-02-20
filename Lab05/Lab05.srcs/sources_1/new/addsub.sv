@@ -2,30 +2,26 @@
 // Jane Ross, Megan Gordon and Sebastian Lopez  ELC 2137, 2020-02-19
 
 module addsub(
-    input a1_in,
-    input b1_in,
-    input a2_in,
-    input b2_in,
-    input mode_in,
-    output s2,s1,cout,sha1,
-    output b1,b2,c1,c2,c3
+    input [1:0] a1, b1, a2, b2, mode,
+    output s2,cout2, s4
     );
-   wire cout1,c2,c3,sha1;
-   
- xor(b2, mode_in, b2_in);
- xor(b1, mode_in, b1_in);
- 
-fulladder fa1(
-    .a1(a1_in), .b1(b1_in),
-    .s1(s1_out), .c1(cout1));
-halfadder ha1(
-    .a2(a2_in), .b2(b2_in),
-    .sha1(sha1), .c2(c2));
-halfadder ha2(
-    .sha1(sha1_in), .c1(c1),
-    .s2(s2), .c3(c3));
-xor(cout2,c3,c2);
-xor(cout, cout2, mode_in);
+  
+ wire x1,x2, c2, c3, s3, c4, x3;
+  
+  xor(x1,b1,mode); 
+  xor(x2,b2,mode); 
+  xor(x3,c4,c3);
+  xor(cout2,x3,mode); 
+  
+  fulladder fa1( 
+    .a1(a1), .x1(x1),
+    .s2(s2), .c2(c2));
+       
+  halfadder ha1(
+    .a2(a2), .x2(x2), 
+    .s3(s3), .c3(c3)); 
+  halfadder ha2(
+    .s3(s3), .c2(c2), 
+    .s4(s4), .c4(c4));
 
-    
 endmodule//addsub
