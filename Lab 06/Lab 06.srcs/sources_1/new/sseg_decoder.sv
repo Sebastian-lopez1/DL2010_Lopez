@@ -1,4 +1,6 @@
 `timescale 1ns / 1ps
+// ELC 2137 - Lab6 - 02/20/2020
+// Sebastian Lopez and Megan Gordon
 
 module sseg_decoder(
     input [3:0] num,

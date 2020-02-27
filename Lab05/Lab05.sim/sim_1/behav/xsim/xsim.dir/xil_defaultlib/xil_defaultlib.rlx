@@ -2,9 +2,9 @@
 2018.3
 Dec  7 2018
 00:33:28
-C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.sim/sim_1/behav/xsim/glbl.v,1582229115,verilog,,,,glbl,,,,,,,,
+C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.sim/sim_1/behav/xsim/glbl.v,1582768917,verilog,,,,glbl,,,,,,,,
 C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv,1582221020,systemVerilog,,,,addsub_test,,,,,,,,
 C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sim_1/new/fulladder_test.sv,1582217009,systemVerilog,,,,fulladder_test,,,,,,,,
 C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sources_1/new/addsub.sv,1582230990,systemVerilog,,C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sources_1/new/fulladder.sv,,addsub,,,,,,,,
 C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sources_1/new/fulladder.sv,1582230964,systemVerilog,,C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sources_1/new/halfadder.sv,,fulladder,,,,,,,,
-C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sources_1/new/halfadder.sv,1582213195,systemVerilog,,C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sim_1/new/addsub_test.sv,,halfadder,,,,,,,,
+C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sources_1/new/halfadder.sv,1582768917,systemVerilog,,C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab05/Lab05.srcs/sim_1/new/fulladder_test.sv,,halfadder,,,,,,,,
