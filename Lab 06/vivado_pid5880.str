@@ -1,0 +1,145 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 5880
+License: Customer
+
+Current time: 	Thu Feb 27 14:37:12 CST 2020
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 520 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/XilinxVivado/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/XilinxVivado/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	LOPEZS
+User home directory: C:/Users/LOPEZS
+User working directory: C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab 06
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/XilinxVivado/Vivado
+HDI_APPROOT: C:/XilinxVivado/Vivado/2018.3
+RDI_DATADIR: C:/XilinxVivado/Vivado/2018.3/data
+RDI_BINDIR: C:/XilinxVivado/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/LOPEZS/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/LOPEZS/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/LOPEZS/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/XilinxVivado/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab 06/vivado.log
+Vivado journal file location: 	C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab 06/vivado.jou
+Engine tmp dir: 	C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab 06/.Xil/Vivado-5880-ROG-305-11
+
+Xilinx Environment Variables
+----------------------------
+VSSDK140Install: C:\Program Files (x86)\Microsoft Visual Studio 14.0\VSSDK\
+XILINX: C:/XilinxVivado/Vivado/2018.3/ids_lite/ISE
+XILINXD_LICENSE_FILE: 2100@lm-xilinx.ecs.baylor.edu
+XILINX_DSP: C:/XilinxVivado/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/XilinxVivado/Vivado/2018.3
+XILINX_SDK: C:/XilinxVivado/SDK/2018.3
+XILINX_VIVADO: C:/XilinxVivado/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/XilinxVivado/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 566 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\LOPEZS\Desktop\DL2010_Lopez\Lab 06\Lab 06.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project {C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab 06/Lab 06.xpr} 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab 06/Lab 06.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/XilinxVivado/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 90 MB (+91992kb) [00:00:17]
+// [Engine Memory]: 634 MB (+513051kb) [00:00:17]
+// [GUI Memory]: 106 MB (+11505kb) [00:00:17]
+// WARNING: HEventQueue.dispatchEvent() is taking  3345 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 675 MB. GUI used memory: 52 MB. Current time: 2/27/20, 2:37:16 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 702.652 ; gain = 117.254 
+// [Engine Memory]: 679 MB (+14183kb) [00:00:21]
+// Project name: Lab 06; location: C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab 06; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1 (sseg1.sv)]", 1, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, sseg1 (sseg1.sv)]", 1, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("sseg1.sv", 92, 149); // cl (w, cp)
+typeControlKey((HResource) null, "sseg1.sv", 'c'); // cl (w, cp)
+// [GUI Memory]: 111 MB (+500kb) [00:14:37]
+// Elapsed time: 906 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // B (D, cp)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 6); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sseg1_test (sseg1_test.sv)]", 7, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sseg1_test (sseg1_test.sv)]", 7, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// Elapsed time: 11 seconds
+selectCodeEditor("sseg1_test.sv", 73, 117); // cl (w, cp)
+// Elapsed time: 262 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, mux2_4b_test (mux2_4b_test.sv)]", 9, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, mux2_4b_test (mux2_4b_test.sv)]", 9, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// [GUI Memory]: 119 MB (+1740kb) [00:22:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 690 MB. GUI used memory: 63 MB. Current time: 2/27/20, 3:07:20 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 690 MB. GUI used memory: 59 MB. Current time: 2/27/20, 3:37:20 PM CST
+// Elapsed time: 2997 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sseg1_test (sseg1_test.sv), Test2 : sseg1 (sseg1.sv)]", 8, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sseg1_test (sseg1_test.sv), Test2 : sseg1 (sseg1.sv)]", 8, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 696 MB. GUI used memory: 58 MB. Current time: 2/27/20, 3:49:35 PM CST
+// Elapsed time: 738 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_test.sv", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1.sv", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_test.sv", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1.sv", 1); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_test.sv", 2); // k (j, cp)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1.sv", 1); // k (j, cp)
+// Elapsed time: 33 seconds
+selectCodeEditor("sseg1.sv", 264, 220); // cl (w, cp)
+selectCodeEditor("sseg1.sv", 234, 224); // cl (w, cp)
+// Elapsed time: 388 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_test.sv", 2); // k (j, cp)
