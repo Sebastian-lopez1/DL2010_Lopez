@@ -1,5 +1,5 @@
 % Digital Logic Report Template
-% Created: 2020-02-13 Sebastian Lopez, Megan Gordon, and Jane Ross  
+% Created: 2020-02-20 Sebastian Lopez and Megan Gordon
 
 %==========================================================
 %=========== Document Setup  ==============================
@@ -60,30 +60,43 @@
 %=========== Body  ====================================
 \begin{document}
 
-\title{ELC 2137 Lab \#5: Intro to Verilog }
-\author{Sebastian Lopez, Megan Gordon, and Jane Ross }
+\title{ELC 2137 Lab \#6: MUX and 7-segment Decoder}
+\author{Sebastian Lopez and Megan Gordon}
 
 \maketitle
 
 
 \section*{Summary}
 
-In this lab we organized the files and adhered to the given folder structure. We had to learn the basic Verilog syntax and used it to create simple components and systems. We then created a full adder using both gate-level and functional/behavioral styles of coding. Following that we combined full adder components to create a 2-bit and 4-bit adder/subtractor. Throughout the process of the lab we also had to create test benches in order verify our designs.  
+In this lab we wrote a multiplexer in Verilog using the conditional operator, as well as combinational Verilog components using an always block. We defined and used multi-bit signals (vectors), then instantiated and connected components in a toplevel module. We then used the provided constraint files to specify package pins. Finally, we implemented the design on out Digilent Basys3 Board's.  
 
 \section*{Q\&A}
 
-Answer questions posed in the lab assignment here.
+	\begin{enumerate}
+		\item \textbf{How many wires are connected to the 7-segment display?}
+		
+		There are 7 wires connected to the 7-segment display. 
+		
+		\item \textbf{If the segments were not all connected together, how many wires would there have to be?}
+		
+		If the segments were not all connected together, there would need to be 28 wires. 
+		
+		\item \textbf{Why do we prefer the current method vs. seperating all of the segments?}
+		
+		We prefer the current method over seperating all the segments, because less wires implies that there is a lesser chance in errors.
+		
+	\end{enumerate}
 
 \section*{Results}
 
 \begin{figure}[ht]\centering
-	\includegraphics[width=.95\textwidth, trim=0cm 0cm 0cm 0cm,clip]{E}
+	\includegraphics[width=.35\textwidth, trim=0cm 0cm 0cm 0cm,clip]{E}
 	\caption{Here the board is showing a value on the first digit. (Value E)}
 	\label{fig:Board-firstdigit}	
 \end{figure}
 
 \begin{figure}[ht]\centering
-	\includegraphics[width=0.75\textwidth, angle = 90, trim=0cm 0cm 0cm 0cm,clip]{4(2)}
+	\includegraphics[width=0.25\textwidth, angle = 90, trim=0cm 0cm 0cm 0cm,clip]{4(2)}
 	\caption{Here the board is showing a value on the second digit. (Value 4)}
 	\label{fig:Board-seconddigit}	
 \end{figure}
