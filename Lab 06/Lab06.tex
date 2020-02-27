@@ -72,28 +72,36 @@ In this lab we organized the files and adhered to the given folder structure. We
 
 \section*{Q\&A}
 
-
-\begin{enumerate}
-	\item \textbf{Comment on whether the simulations match the expected output values.} 
-		
-	In last week's lab we found the expected output values using variables a, b, and mode. This week after testing and running the code, our simulations did match the results of the expected outcome.  
-	
-	\item \textbf{What is the one thing you still don't understand about Verilog?}
-	
-	We don't fully understand the conditions of the if statements. We are also not fully understanding the application of a proper 'always' statement. 
-	 
-\end{enumerate}
+Answer questions posed in the lab assignment here.
 
 \section*{Results}
 
-	- A very prominent error was that we could not seem to find the correct path for our 'out' variable in the sseg1.sv file.  
-	- We then figured out that our statements in the sseg1test.sv were incorrect. Instead of repeating the same statements we did in the source code file, we decided it would be right 
-	      to make an exclusive statement for all values of sw, and an.
-	- 
+\begin{figure}[ht]\centering
+	\includegraphics[width=.95\textwidth, trim=0cm 0cm 0cm 0cm,clip]{E}
+	\caption{Here the board is showing a value on the first digit. (Value E)}
+	\label{fig:Board-firstdigit}	
+\end{figure}
+
+\begin{figure}[ht]\centering
+	\includegraphics[width=0.75\textwidth, angle = 90, trim=0cm 0cm 0cm 0cm,clip]{4(2)}
+	\caption{Here the board is showing a value on the second digit. (Value 4)}
+	\label{fig:Board-seconddigit}	
+\end{figure}
+
+\subsection*{Errors}
+
+	\begin{itemize}
+		\item A very prominent error was that we could not seem to find the correct path for our 'out' variable in the sseg1.sv file.
+		\item We then figured out that our statements in the sseg1test.sv were incorrect. Instead of repeating the same statements we did in the source code file, we decided it would be right to make an exclusive statement for all values of sw, and an.
+		\item Both of these errors show that running simulations both constantly and consistently, strongly secure that your code is functioning properly throughout the process of writing it. If one were to write down all their code in one shot and process it at the very end there could be several errors (maybe even minor ones) that can really affect your outcome. It will be much easier to find the problem within your code if you run your simulations properly, also considering that you will be looking a smaller amount of code rather than the entirety of it.
+		
+		 
+	\end{itemize}
+
 \section*{Code}
-	
+
 \begin{lstlisting}[style=Verilog,
-caption=mux2_4b Source Code,
+caption=mux2 4b Source Code,
 label=mux2_4b:ex
 ]
 `timescale 1ns / 1ps
@@ -110,8 +118,8 @@ endmodule //mux2_4b
 \end{lstlisting}
 
 \begin{lstlisting}[style=Verilog,
-caption=mux2_4b Test Code,
-label=mux2_4b_test:ex
+caption=mux2 4b Test Code,
+label=mux2 4b test:ex
 ]
 `timescale 1ns / 1ps
 // ELC 2137 - Lab6 - 02/20/2020
@@ -190,7 +198,7 @@ endmodule //sseg_decoder
 \end{lstlisting}
 
 \begin{lstlisting}[style=Verilog,
-caption=Ssed Decoder Test Bench Code,
+caption=Sseg Decoder Test Bench Code,
 label=ssed_decoder_test:ex
 ]
 `timescale 1ns / 1ps
@@ -262,7 +270,7 @@ label=sseg1_test:ex
 // ELC 2137 - Lab6 - 02/20/2020
 // Sebastian Lopez and Megan Gordon
 
-module sseg1(
+module sseg1_test(
 input [15:0] sw, //switches 
 output [3:0] an, // 7-segment digits
 output [6:0] seg, // 7-seg segments
@@ -286,84 +294,7 @@ sseg_decoder sseg2(
 .sseg(seg)
 ); 
 
-endmodule //seg1
+endmodule //seg1_test
 \end{lstlisting}
-
-\begin{figure}[ht]\centering
-	\includegraphics[width=0.6\textwidth, trim=10cm 10cm 10cm 10cm,clip]{Half-Adder Lab05}
-	\caption{This is the diagram for the Half Adder}
-	\label{fig:Half-Adder}	
-\end{figure}
-
-\begin{figure}[ht]\centering
-	\includegraphics[width=0.6\textwidth, trim=3cm 10cm 10cm 10cm,clip]{2-bit Adder Lab05}
-	\caption{This is the diagram for the Full and 2-bit Adder}
-	\label{fig:Full_2-bit_Adder}	
-\end{figure}
-
-	\item ERTs and screenshots for Behavioral Simulations 
-	
-\begin{table}[ht]\centering
-	\caption{Half Adder ERT}
-	\label{tbl:Half_Adder_ERT}
-	\begin{tabular}{c||cc|cc}
-		\toprule
-		Time (ns) & A1 & B1 & C1 & S1\\
-		\midrule
-		0 & 0 & 1 & 0 & 1\\
-		10 & 0 & 0 & 1 & 1\\
-		20 & 0 & 0 & 0 & 1\\
-		30 & 0 & 1 & 1 & 0\\
-		\bottomrule
-	\end{tabular} 
-\end{table} 
-
-\begin{table}[ht]\centering
-	\caption{Full Adder ERT}
-	\label{tbl:Half_Adder_ERT}
-	\begin{tabular}{c||ccc|cc}
-		\toprule
-		Time (ns) & A1 & B1 & Cin & Cout & S\\
-		\midrule
-		0 & 0 & 0 & 0 & 0 & 0\\
-		10 & 1 & 0 & 0 & 0 & 1\\
-		20 & 1 & 1 & 0 & 1 & 0\\
-		30 & 0 & 0 & 1 & 0 & 1\\
-		40 & 1 & 0 & 1 & 1 & 0\\
-		50 & 1 & 1 & 1 & 1 & 1\\
-		\bottomrule
-	\end{tabular} 
-\end{table} 
-
-\begin{table}[ht]\centering
-	\caption{Full Adder ERT}
-	\label{tbl:Half_Adder_ERT}
-	\begin{tabular}{c||ccccc|ccc}
-		\toprule
-		Time (ns) & A1 & B1 & A2 & B2 & Mode & Cout & S2 & S4\\
-		\midrule
-		0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0\\
-		10 & 0 & 1 & 0 & 0 & 1 & 1 & 1 & 1\\
-		20 & 0 & 0 & 0 & 1 & 1 & 1 & 1 & 0\\
-		30 & 0 & 1 & 0 & 1 & 1 & 1 & 0 & 1\\
-		40 & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 0\\
-		50 & 0 & 1 & 1 & 0 & 0 & 0 & 0 & 1\\
-		60 & 0 & 0 & 1 & 0 & 0 & 0 & 1 & 0\\	
-		\bottomrule
-	\end{tabular} 
-\end{table} 
-
-	
-\begin{figure}[ht]\centering
-	\includegraphics[width=0.75\textwidth]{Half Adder Simulation}
-	\caption{This is the Half Adder Simulation Screenshot.}
-	\label{fig:half_adder_sim}	
-\end{figure}
-
-\begin{figure}[ht]\centering
-	\includegraphics[width=0.75\textwidth]{Full Adder Simulation}
-	\caption{This is the Full Adder Simulation Screenshot.}
-	\label{fig:full_adder_sim}	
-\end{figure}
 
 \end{document}
