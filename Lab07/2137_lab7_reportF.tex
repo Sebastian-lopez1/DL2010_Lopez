@@ -61,16 +61,14 @@
 \begin{document}
 
 \title{ELC 2137 Lab \#7: Binary Coded Decimal}
-\author{Sean Dickenscheidt and Sebastion Lopez}
+\author{Sean Dickenscheidt and Sebastian Lopez}
 
 \maketitle
 
 
 \section*{Summary}
 
-In this lab, the basic of Verilog were learned. It was discovered how to create a half-adder, full-adder, and 
-an adder/subtractor. The more complited the circuit, the more things it can do.
-
+In this lab we used the double-dabble algorithm to convert hexvalues into BCD. We then explain how this algorithm can be implemented in hardware, by using structural style.
 
 \section*{Results}
 
@@ -412,15 +410,35 @@ endmodule //BCD11_Test
 	\end{figure}
 
 
-\begin{figure}[ht]\centering
+	\begin{figure}[ht]\centering
+		
+		
+		
+		\includegraphics[width=1\textwidth,angle=270,origin=c,scale=1]{bcd11.jpg}
+		\caption{BCD11}
+		\label{fig:sim_with_table}
+		
+	\end{figure}
 	
+	\begin{figure}[ht]\centering
+		
+		
+		
+		\includegraphics[width=1\textwidth,angle=0,origin=c]{88.jpg}
+		\caption{88 Value on Board}
+		\label{fig:88_value}
+		
+	\end{figure}
 	
-	
-	\includegraphics[width=1\textwidth,angle=270,origin=c,scale=1]{bcd11.jpg}
-	\caption{BCD11}
-	\label{fig:sim_with_table}
-	
-\end{figure}
+	\begin{figure}[ht]\centering
+		
+		
+		
+		\includegraphics[width=1\textwidth,angle=0,origin=c]{99.jpg}
+		\caption{99 Value on Board}
+		\label{fig:99_value}
+		
+	\end{figure}
 	
 	
 \end{document}

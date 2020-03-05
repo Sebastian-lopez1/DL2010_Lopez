@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Wed Mar  4 22:38:19 2020
+| Date         : Thu Mar  5 09:37:33 2020
 | Host         : ROG-305-05 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file sseg1_BCD_utilization_synth.rpt -pb sseg1_BCD_utilization_synth.pb
 | Design       : sseg1_BCD

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2020.3.4)  4 MAR 2020 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2020.3.5)  5 MAR 2020 09:48
 entering extended mode
 **./2137_lab7_reportF.tex
 (2137_lab7_reportF.tex
@@ -407,9 +407,9 @@ File: lstlang2.sty 2015/06/04 1.6 listings language file
 File: lstlang3.sty 2015/06/04 1.6 listings language file
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 81.
+nput line 79.
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 82.
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 80.
  [1
 
 {C:/Users/LOPEZS/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] [4
@@ -417,44 +417,54 @@ LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 <add3_test.PNG, id=266, 743.77875pt x 109.1578pt>
 File: add3_test.PNG Graphic file (type png)
 <use add3_test.PNG>
-Package pdftex.def Info: add3_test.PNG  used on input line 385.
+Package pdftex.def Info: add3_test.PNG  used on input line 383.
 (pdftex.def)             Requested size: 469.75502pt x 68.943pt.
 <BCD6_test.PNG, id=268, 1212.02812pt x 100.87688pt>
 File: BCD6_test.PNG Graphic file (type png)
 <use BCD6_test.PNG>
-Package pdftex.def Info: BCD6_test.PNG  used on input line 395.
+Package pdftex.def Info: BCD6_test.PNG  used on input line 393.
 (pdftex.def)             Requested size: 469.75502pt x 39.09708pt.
 <BCD11.PNG, id=269, 744.53156pt x 109.1578pt>
 File: BCD11.PNG Graphic file (type png)
 <use BCD11.PNG>
-Package pdftex.def Info: BCD11.PNG  used on input line 408.
+Package pdftex.def Info: BCD11.PNG  used on input line 406.
 (pdftex.def)             Requested size: 469.75502pt x 68.87471pt.
 <bcd11.jpg, id=270, 642.4pt x 481.8pt>
 File: bcd11.jpg Graphic file (type jpg)
 <use bcd11.jpg>
-Package pdftex.def Info: bcd11.jpg  used on input line 419.
+Package pdftex.def Info: bcd11.jpg  used on input line 417.
 (pdftex.def)             Requested size: 469.75502pt x 352.32861pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
+<88.jpg, id=271, 642.4pt x 481.8pt>
+File: 88.jpg Graphic file (type jpg)
+<use 88.jpg>
+Package pdftex.def Info: 88.jpg  used on input line 427.
+(pdftex.def)             Requested size: 469.75502pt x 352.32861pt.
+<99.jpg, id=272, 642.4pt x 481.8pt>
+File: 99.jpg Graphic file (type jpg)
+<use 99.jpg>
+Package pdftex.def Info: 99.jpg  used on input line 437.
+(pdftex.def)             Requested size: 469.75502pt x 352.32861pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 444.
 
 [6 <./add3_test.PNG> <./BCD6_test.PNG> <./BCD11.PNG>] [7 <./bcd11.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
-
-(2137_lab7_reportF.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
+[8 <./88.jpg>] [9 <./99.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 444.
+ (2137_lab7_reportF.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 444.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 444.
 Package rerunfilecheck Info: File `2137_lab7_reportF.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 426.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 444.
  ) 
 Here is how much of TeX's memory you used:
- 8183 strings out of 493308
- 118515 string characters out of 3138766
- 358001 words of memory out of 3000000
- 11391 multiletter control sequences out of 15000+200000
+ 8199 strings out of 493308
+ 118669 string characters out of 3138766
+ 358066 words of memory out of 3000000
+ 11401 multiletter control sequences out of 15000+200000
  7748 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  31i,9n,49p,257b,1785s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -463,9 +473,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/font
 s/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on 2137_lab7_reportF.pdf (7 pages, 206327 bytes).
+Output written on 2137_lab7_reportF.pdf (9 pages, 375074 bytes).
 PDF statistics:
- 387 PDF objects out of 1000 (max. 8388607)
- 274 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 278 named destinations out of 1000 (max. 500000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

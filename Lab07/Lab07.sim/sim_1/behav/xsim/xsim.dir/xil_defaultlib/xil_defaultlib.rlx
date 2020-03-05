@@ -1,0 +1,10 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/Lab07.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/Lab07.srcs/sources_1/new/BCD11.sv,1583421784,systemVerilog,,C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/Lab07.srcs/sources_1/new/add3.sv,,BCD11,,,,,,,,
+C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/Lab07.srcs/sources_1/new/add3.sv,1583421784,systemVerilog,,C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/Lab07.srcs/sources_1/new/mux2_4b.sv,,add3,,,,,,,,
+C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/Lab07.srcs/sources_1/new/mux2_4b.sv,1583421784,systemVerilog,,C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/Lab07.srcs/sources_1/new/sseg_decoder.sv,,mux2_4b,,,,,,,,
+C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/Lab07.srcs/sources_1/new/sseg1_BCD.sv,1583421784,systemVerilog,,,,sseg1_BCD,,,,,,,,
+C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/Lab07.srcs/sources_1/new/sseg_decoder.sv,1583421784,systemVerilog,,C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/Lab07.srcs/sources_1/new/sseg1_BCD.sv,,sseg_decoder,,,,,,,,
