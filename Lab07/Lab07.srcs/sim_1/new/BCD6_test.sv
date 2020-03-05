@@ -1,26 +1,30 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 02/27/2020 03:37:36 PM
-// Design Name: 
-// Module Name: BCD6_test
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+// ELC 2137 - Lab6 - 02/20/2020
+// Sebastian Lopez and Sean Dickenscheidt 
 
+module BCD6_test ();
 
-module BCD6_test(
+reg [5:0] B; 
+wire [7:0] Output6;
 
-    );
-endmodule
+integer i; 
+
+BCD6 test1( 
+.B(B), 
+.Output6(Output6)
+);
+
+initial 
+begin 
+    
+for (i =0; i <= 6'b111111; i = i + 1)
+    begin 
+    B = i;
+    #10;
+    end 
+    
+    $finish;
+
+end 
+ 
+endmodule //BCD6_Test
