@@ -33,7 +33,7 @@ module sseg1_BCD  (
     .sseg(seg)
     );
     
-    assign an[1] = sw[15]; 
+    assign an[1] = ~sw[15]; 
     assign an[0] = sw[15]; 
     assign an[3:2] = 2'b11; 
     assign dp = 1;   

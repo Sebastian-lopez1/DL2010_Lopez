@@ -1,5 +1,5 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/sseg.xdc rfile:../../../sseg.xdc id:1} [current_design]
-set_property SRC_FILE_INFO {cfile:C:/Users/LOPEZS/Desktop/DL2010_Lopez/Lab07/switches.xdc rfile:../../../switches.xdc id:2} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/Dickenscheidt/Desktop/DL2010_Lopez/Lab07/sseg.xdc rfile:../../../sseg.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/Dickenscheidt/Desktop/DL2010_Lopez/Lab07/switches.xdc rfile:../../../switches.xdc id:2} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W7 [get_ports {seg[0]}]
 set_property src_info {type:XDC file:1 line:4 export:INPUT save:INPUT read:READ} [current_design]

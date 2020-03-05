@@ -8,7 +8,7 @@ module mux2_4b(
     output [3:0] out
     ); 
     
-    assign out = sel? in0:in1; 
+    assign out = sel? in1:in0; 
     
 endmodule //mux2_4b
 

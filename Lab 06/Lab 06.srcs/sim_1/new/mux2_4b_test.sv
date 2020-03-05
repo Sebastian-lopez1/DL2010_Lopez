@@ -2,15 +2,15 @@
 // ELC 2137 - Lab6 - 02/20/2020
 // Sebastian Lopez and Megan Gordon
 
-module mux2_4b_test( );
+module mux2_test( );
 
-reg [3:0] in0, in1;
-reg sel; 
-wire [3:0] out;
+reg [15:0] in0, in1; 
+reg sel;
+wire [15:0] mux2_out;
 
-mux2_4b Test1(
+mux2 #(.N(16)) test1(
 .in0(in0), .in1(in1), .sel(sel),
-.out(out)
+.mux2_out(mux2_out)
 ); 
 
 initial 

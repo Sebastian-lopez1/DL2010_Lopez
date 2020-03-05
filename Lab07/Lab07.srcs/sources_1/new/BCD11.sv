@@ -4,7 +4,7 @@
 
 module BCD11 (
 input [10:0] B, 
-output [13:0] Output11 
+output [15:0] Output11 
 );
 
 wire w1, w2, w3, w4, w5, w6, w7, w8, w9, w10;

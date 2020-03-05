@@ -1,6 +1,6 @@
 Vivado Simulator 2018.3
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/XilinxVivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 1e36701906ef4d3fa293cf5f24a94e4c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sseg1_BCD_behav xil_defaultlib.sseg1_BCD xil_defaultlib.glbl -log elaborate.log 
+Running: C:/XilinxVivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 1e36701906ef4d3fa293cf5f24a94e4c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BCD11_test_behav xil_defaultlib.BCD11_test xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -9,8 +9,6 @@ Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.add3
 Compiling module xil_defaultlib.BCD11
-Compiling module xil_defaultlib.mux2_4b
-Compiling module xil_defaultlib.sseg_decoder
-Compiling module xil_defaultlib.sseg1_BCD
+Compiling module xil_defaultlib.BCD11_test
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot sseg1_BCD_behav
+Built simulation snapshot BCD11_test_behav
