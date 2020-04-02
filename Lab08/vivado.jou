@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Mar 24 19:32:24 2020
+# Process ID: 34576
+# Current directory: C:/Users/Sebastian Lopez/Downloads/DL2010_Lopez/Lab08
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22808 C:\Users\Sebastian Lopez\Downloads\DL2010_Lopez\Lab08\Lab08.xpr
+# Log file: C:/Users/Sebastian Lopez/Downloads/DL2010_Lopez/Lab08/vivado.log
+# Journal file: C:/Users/Sebastian Lopez/Downloads/DL2010_Lopez/Lab08\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Sebastian Lopez/Downloads/DL2010_Lopez/Lab08/Lab08.xpr}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open {C:/Users/Sebastian Lopez/Downloads/DL2010_Lopez/Lab08/Lab08.srcs/sources_1/new/sseg4_manual.sv} w ]
+add_files {{C:/Users/Sebastian Lopez/Downloads/DL2010_Lopez/Lab08/Lab08.srcs/sources_1/new/sseg4_manual.sv}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property top mux2_4b_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+set_property top mux2_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source mux2_test.tcl
+set_property top mux4_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source mux4_test.tcl
+add_files -norecurse {{C:/Users/Sebastian Lopez/Downloads/DL2010_Lopez/Lab08/disp.sv} {C:/Users/Sebastian Lopez/Downloads/DL2010_Lopez/Lab08/basys3.sv}}
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top basys3 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property top basys3 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+launch_simulation
+set_property top mux2_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+current_sim simulation_1
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source mux2_test.tcl
+set_property top mux4_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+current_sim simulation_2
+close_sim
+launch_simulation
+source mux4_test.tcl
+set_property top an_decoder_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source an_decoder_test.tcl
+set_property top basys3 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+launch_simulation
+source basys3.tcl
+close_sim
+current_sim simulation_5
+close_sim
+current_sim simulation_4
+close_sim
+close_sim

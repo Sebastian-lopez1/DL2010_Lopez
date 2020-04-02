@@ -1,4 +1,26 @@
 Vivado Simulator 2018.3
 Time resolution is 1 ps
-$finish called at time : 40 ns : File "C:/Users/Dickenscheidt/Desktop/DL2010_Lopez/Lab 06/Lab 06.srcs/sim_1/new/mux2_4b_test.sv" Line 35
+$finish called at time : 40 ns : File "C:/Users/Sebastian Lopez/Downloads/DL2010_Lopez/Lab 06/Lab 06.srcs/sim_1/new/mux2_4b_test.sv" Line 35
 
+ |||+------ Decimal point
+    ||||+----- Digit 1 (? = incorrect segment values)
+    |||||+---- Decimal point
+    ||||||+--- Digit 0 (? = incorrect segment values)
+    |||||||+-- Decimal point
+    ||||||||
+-->       0 
+-->       C 
+-->       2 
+-->     1   
+-->   0     
+-->   1     
+-->     4   
+-->       0 
+--> 0       
+--> 0       
+--> 0       
+--> ?       
+-->   ?     
+-->     ?   
+-->       ? 
+$finish called at time : 150 ns : File "C:/Users/Sebastian Lopez/Downloads/DL2010_Lopez/Lab08/basys3.sv" Line 98
