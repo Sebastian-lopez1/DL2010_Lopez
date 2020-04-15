@@ -32,6 +32,10 @@ initial begin
     in0 = 9; 
     in1 = 10;
     #10 
+    op = 5; 
+    in0 = 11; 
+    in1 = 12;
+    #10
     $finish; 
 end
 endmodule
